@@ -99,7 +99,9 @@ p{
   align-items: center;
   align-self: stretch;
   border-radius: 12px;
+  outline: none;
   background: #EFCA08;
+  border: none;
 }
 
 .cta-button p {
