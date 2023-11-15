@@ -5,13 +5,8 @@ import Image from 'next/image'
 import './globals.css'
 
 export default function Home() {
-  const [bravo, setBravo] = useState(0)
   const [nama, setNama] = useState('Ardria Auliya')
   const [inputNama, setInputNama] = useState('')
-
-  function handlerTambahBravo() {
-    setBravo(bravo + 1)
-  }
 
   function handlerGantiNama() {
     setNama(inputNama)
@@ -42,7 +37,7 @@ export default function Home() {
             <div className="bio-nim-header-banner">
               {/* NIM dan BIO*/}
               <p>D121211001</p>
-              <p>Bravo {bravo}, going dark</p>
+              <p>Universitas Hasanuddin</p>
             </div>
           </div>
         </div>
