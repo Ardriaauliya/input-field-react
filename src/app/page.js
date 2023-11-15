@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
         <div className="cta-banner-wrapper">
-          {/* Tombol CTA */}
+          {/* Input Nama dan Tombol CTA  */}
           <div className='cta-input'> 
             <input
               type="text"
