@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
         <div className="cta-banner-wrapper">
-          {/* Input dan Tombol CTA */}
+          {/* Tombol CTA */}
           <div className='cta-input'> 
             <input
               type="text"
@@ -51,10 +51,12 @@ export default function Home() {
               placeholder="Tuliskan namamu.."
               style={{
                 marginRight: '12px'
-              }}/>
+              }}
+            />
             <button
               className='cta-button'
-              onClick={handlerGantiNama}>
+              onClick={handlerGantiNama}
+            >
               <p>Halo!</p>
             </button>
           </div>
